@@ -34,7 +34,7 @@ static bool tegra_dvfs_core_disabled;
 static struct dvfs *cpu_dvfs;
 
 static const int cpu_millivolts[MAX_DVFS_FREQS] = {
-        775, 800, 825, 850, 875, 900, 925, 950,  975, 1000, 1010, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1200, 1215};
+	800, 825, 850, 875, 900, 916, 950, 975, 1000, 1007, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1200, 1212, 1237};
 
 static const unsigned int cpu_cold_offs_mhz[MAX_DVFS_FREQS] = {
 	  50,  50,  50,  50,  50,  50,  50,  50,  50,   50,   50,   50,   50,   50,   50,   50,   50,   50,   50,   50};
