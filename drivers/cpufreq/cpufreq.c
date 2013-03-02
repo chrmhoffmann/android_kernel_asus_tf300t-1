@@ -52,8 +52,8 @@ static DEFINE_PER_CPU(char[CPUFREQ_NAME_LEN], cpufreq_cpu_governor);
 #endif
 static DEFINE_SPINLOCK(cpufreq_driver_lock);
 
-static unsigned int user_mv_table[MAX_DVFS_FREQS] = { 775, 800, 825, 850, 875, 900, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1175, 1200 };
-static unsigned int freq_table[13] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300 };
+static unsigned int user_mv_table[MAX_DVFS_FREQS] = { 750, 762, 775, 787, 800, 825, 837, 850, 862, 875, 887, 900, 912, 916, 925, 937, 950, 962, 975, 987, 1000, 1007, 1012, 1025, 1037, 1050, 1062, 1075, 1087, 1100, 1112, 1125, 1137, 1150, 1162, 1175, 1187, 1200, 1212, 1237 };
+static unsigned int freq_table[17] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700 };
 
 /*
  * cpu_policy_rwsem is a per CPU reader-writer semaphore designed to cure
